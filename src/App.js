@@ -7,8 +7,8 @@ import AuthorizeOrNot from './AuthorizeOrNot';
 
 function App() {
 
-  const clientId = '484e634d46d448a086e70bc87b8cdeae';
-  const clientSecret = '34b5c5fcf20841cc9e8c813cf12eaf26';
+  const clientId = '';
+  const clientSecret = '';
   const redirect_uri = "http://localhost:3000";
   const GENRES = `https://api.spotify.com/v1/browse/categories`;
   const GENRESBYID = `https://api.spotify.com/v1/browse/categories/{{genreId}}/playlists?limit={{limit}}`;
